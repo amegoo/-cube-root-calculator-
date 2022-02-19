@@ -1,6 +1,6 @@
 from pytube import YouTube 
 SAVE_PATH = "E:/" 
-link="https://www.youtube.com/watch?v=xWOoBJUqlbI"
+link=str(input("inter an integer:"))
   
 try: 
     yt = YouTube(link) 
